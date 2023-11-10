@@ -39,3 +39,9 @@ likeButton1 = document.getElementsByClassName("button Lts($ls-s) Z(0) CenterAlig
 likeButton1[0].click();
 
 setInterval(function() {likeButton1[0].click();}, 10);
+
+//vk знакомства
+likeButton1 = document.getElementsByClassName("CardBioReactions__button ReactionButton ReactionButton--mode-primary ReactionButton--reaction-like vkuiTappable vkuiInternalTappable vkuiTappable--sizeX-none vkuiTappable--hasHover vkuiTappable--hasActive");
+setInterval(function() {likeButton1[0].click();}, 1500);
+
+
